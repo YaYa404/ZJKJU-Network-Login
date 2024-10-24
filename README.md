@@ -6,7 +6,7 @@
 
 1. 连接上校园网
 
-2. 用编辑器打开ZJKJU_Login.py的修改里面的CONFIG配置参数，参数对应如图
+2. 用编辑器打开<code>ZJKJU_Login.py</code>的修改里面的<code>CONFIG</code>配置参数，参数对应如图
 
 ![Image](https://raw.githubusercontent.com/YaYa404/ZJKJU-Network-Login/refs/heads/main/config.png)
 
