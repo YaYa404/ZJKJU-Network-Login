@@ -15,8 +15,10 @@
 4. 运行ZJKJU_Login.py脚本
 
 ## docker
-如果想用docker请自行构建，<code>Dockerfile</code>文件已经准备好了，但是没有把config参数分离出来，仍然需要根据上面的步骤配置
+如果想用docker请自行构建，<code>Dockerfile</code>文件已经准备好了
+但是没有把config参数分离出来，仍然需要根据上面的步骤配置
 配置完成后运行<code>docker build -t zjkju-login .</code>
+如果人要用的人多的话我可以考虑弄一下这docker容器
 
 ## 碎碎念
 悄悄告诉你如果想把校园网接上路由器的话修改TTL和NTP就行了
