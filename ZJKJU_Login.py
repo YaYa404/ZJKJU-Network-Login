@@ -25,7 +25,7 @@ CONFIG = {
         "validcode": "",
         "passwordEncrypt": "true",
     },
-    "PINGTIME": 60
+    "PINGTIME": 600
 }
 
 def fetch_user_info():
