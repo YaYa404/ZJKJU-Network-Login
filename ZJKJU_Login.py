@@ -6,7 +6,7 @@ from requests.exceptions import RequestException
 # 配置日志
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# 配置参数
+# 配置参数，PINGTIME是检测间隔
 CONFIG = {
     "INFURL": 'http://10.80.80.249/eportal/InterFace.do?method=getOnlineUserInfo',
     "LOGINURL": "http://10.80.80.249/eportal/InterFace.do?method=login",
